@@ -1,0 +1,2 @@
+#define WATERFLOWGENERATOR_API __declspec(dllexport)
+#define WATERFLOWGENERATOR_API __declspec(dllimport)
