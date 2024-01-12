@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Visualizer", "Visualizer.vcxproj", "{27220DF7-D483-4E58-B633-7ABD9B2D0610}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803282A6-AA11-4A93-8771-F33C1182D6A6} = {803282A6-AA11-4A93-8771-F33C1182D6A6}
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642} = {ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reader", "Reader\Reader.vcxproj", "{803282A6-AA11-4A93-8771-F33C1182D6A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642} = {ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaterflowGenerator", "WaterflowGenerator\WaterflowGenerator.vcxproj", "{38106598-3367-4793-9649-7A5AB9549BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Debug|x64.ActiveCfg = Debug|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Debug|x64.Build.0 = Debug|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Debug|x86.ActiveCfg = Debug|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Debug|x86.Build.0 = Debug|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Release|x64.ActiveCfg = Release|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Release|x64.Build.0 = Release|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Release|x86.ActiveCfg = Release|x64
+		{27220DF7-D483-4E58-B633-7ABD9B2D0610}.Release|x86.Build.0 = Release|x64
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Debug|x64.ActiveCfg = Debug|x64
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Debug|x64.Build.0 = Debug|x64
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Debug|x86.Build.0 = Debug|Win32
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Release|x64.ActiveCfg = Release|x64
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Release|x64.Build.0 = Release|x64
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Release|x86.ActiveCfg = Release|Win32
+		{ACF71147-BDD7-46B3-ACF7-9AD5E6E53642}.Release|x86.Build.0 = Release|Win32
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Debug|x64.ActiveCfg = Debug|x64
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Debug|x64.Build.0 = Debug|x64
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Debug|x86.Build.0 = Debug|Win32
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Release|x64.ActiveCfg = Release|x64
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Release|x64.Build.0 = Release|x64
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Release|x86.ActiveCfg = Release|Win32
+		{803282A6-AA11-4A93-8771-F33C1182D6A6}.Release|x86.Build.0 = Release|Win32
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Debug|x64.ActiveCfg = Debug|x64
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Debug|x64.Build.0 = Debug|x64
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Debug|x86.Build.0 = Debug|Win32
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Release|x64.ActiveCfg = Release|x64
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Release|x64.Build.0 = Release|x64
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Release|x86.ActiveCfg = Release|Win32
+		{38106598-3367-4793-9649-7A5AB9549BB1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0257412E-96ED-418C-8446-20837156EDC4}
+	EndGlobalSection
+EndGlobal
